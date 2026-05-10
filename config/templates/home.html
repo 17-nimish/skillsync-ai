@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="hero">
+    <h1>Analyze your resume & grow your career 🚀</h1>
+    <p class="text-muted">Find your skill gaps and become job-ready with AI</p>
+
+    <div class="search-box mt-4">
+        <div class="search-item" onclick="goToDashboard()">
+            <small>Job Role</small>
+            <p>Choose role</p>
+        </div>
+
+        <div class="search-item" onclick="goToDashboard()">
+            <small>Skills</small>
+            <p>AI Analysis</p>
+        </div>
+
+        <div class="search-item" onclick="goToDashboard()">
+            <small>Report</small>
+            <p>Instant Results</p>
+        </div>
+
+        <button onclick="goToDashboard()" class="search-btn">
+            →
+        </button>
+    </div>
+</div>
+
+<div class="row mt-5">
+
+    <div class="col-md-6">
+        <div class="card card-custom">
+            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692" class="img-fluid">
+            <div class="p-3">
+                <h5>Analyze Resume</h5>
+                <p>Upload your resume and get insights</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card card-custom">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" class="img-fluid">
+            <div class="p-3">
+                <h5>Improve Skills</h5>
+                <p>Get AI-powered recommendations</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
