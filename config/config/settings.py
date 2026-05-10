@@ -27,7 +27,11 @@ DEBUG = True
 
 import os
 
-ALLOWED_HOSTS = ['skillsync-ai-4nq9.onrender.com']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'skillsync-ai-4nq9.onrender.com',
+]
 
 
 # Application definition
